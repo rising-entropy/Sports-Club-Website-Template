@@ -1,0 +1,38 @@
+/* included only when we don't want to use fonts from google server */
+
+/* latin */
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: Light;
+    font-weight: 300;
+    src: local('OpenSans Light'), local('OpenSans-Light'), url(../fonts/opensans/OpenSans-Light.woff2) format('woff2'), url(../fonts/opensans/OpenSans-Light.woff) format('woff'), url(../fonts/opensans/OpenSans-Light.ttf) format('truetype'), url(../fonts/opensans/OpenSans-Light.eot) format('eot'), url(../fonts/opensans/OpenSans-Light.svg) format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: Regular;
+    font-weight: 400;
+    src: local('OpenSans Regular'), local('OpenSans-Regular'), url(../fonts/opensans/OpenSans-Regular.woff2) format('woff2'), url(../fonts/opensans/OpenSans-Regular.woff) format('woff'), url(../fonts/opensans/OpenSans-Regular.ttf) format('truetype'), url(../fonts/opensans/OpenSans-Regular.eot) format('eot'), url(../fonts/opensans/OpenSans-Regular.svg) format('svg');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: Bold;
+    font-weight: 700;
+    src: local('OpenSans Bold'), local('OpenSans-Bold'), url(../fonts/opensans/OpenSans-Bold.woff2) format('woff2'), url(../fonts/opensans/OpenSans-Bold.woff) format('woff'), url(../fonts/opensans/OpenSans-Bold.ttf) format('truetype'), url(../fonts/opensans/OpenSans-Bold.eot) format('eot'), url(../fonts/opensans/OpenSans-Bold.svg) format('svg');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: Regular;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url(../fonts/montserrat/Montserrat-Regular.woff2) format('woff2'), url(../fonts/montserrat/Montserrat-Regular.woff) format('woff'), url(../fonts/montserrat/Montserrat-Regular.ttf) format('truetype'), url(../fonts/montserrat/Montserrat-Regular.eot) format('eot'), url(../fonts/montserrat/Montserrat-Regular.svg) format('svg');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: Bold;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url(../fonts/montserrat/Montserrat-Bold.woff2) format('woff2'), url(../fonts/montserrat/Montserrat-Bold.woff) format('woff'), url(../fonts/montserrat/Montserrat-Bold.ttf) format('truetype'), url(../fonts/montserrat/Montserrat-Bold.eot) format('eot'), url(../fonts/montserrat/Montserrat-Bold.svg) format('svg');
+}

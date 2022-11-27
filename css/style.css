@@ -1,0 +1,3522 @@
+/*
+Copyright (c) 2017
+------------------------------------------------------------------
+[Master responsive Stylesheet]
+
+Template Name: sportclub html template 
+
+table of content:-
+
+1. primary css/html
+2. Modules - reusable parts of our design/.padder_left0
+3. banner/.sclub_banner_wrapper
+4. sports/.sclub_sports_wrapper
+5. training/.sclub_traning_wrapper
+6. gallery/.sclub_gallery_wrapper
+7. timer/.sclub_timer_wrapper
+8. staff/.sclub_staff_wrapper
+9. newslatter/.sclub_newslatter_wrapper
+10. footer/.sclub_footer_wrapper
+11. copyright/.sclub_copyright_wrapper
+12. about_page/
+13. activity_page/
+14. team_page/
+16. gallery_page/
+14. enquiry_page/
+------------------------------------------------------------------- */
+
+/*-----------------------------
+1. primary css
+------------------------------*/
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #3e3d3f;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    color: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+a:hover {
+    color: #00bbd3;
+    text-decoration: none;
+}
+
+#err1 {
+    margin-top: 10px;
+}
+
+/*-----------------------------
+1. primary css
+------------------------------*/
+
+/***************************************
+2. Modules - reusable parts of our design start
+****************************************/
+
+.padder_left0 {
+    padding-left: 0px;
+}
+
+.toppadder10 {
+    padding-top: 10px;
+}
+
+.toppadder20 {
+    padding-top: 20px;
+}
+
+.toppadder30 {
+    padding-top: 30px;
+}
+
+.toppadder40 {
+    padding-top: 40px;
+}
+
+.toppadder50 {
+    padding-top: 50px;
+}
+
+.toppadder60 {
+    padding-top: 60px;
+}
+
+.toppadder70 {
+    padding-top: 70px;
+}
+
+.toppadder80 {
+    padding-top: 80px;
+}
+
+.toppadder90 {
+    padding-top: 90px;
+}
+
+.toppadder100 {
+    padding-top: 100px;
+}
+
+.bottompadder10 {
+    padding-bottom: 10px;
+}
+
+.bottompadder20 {
+    padding-bottom: 20px;
+}
+
+.bottompadder30 {
+    padding-bottom: 30px;
+}
+
+.bottompadder40 {
+    padding-bottom: 40px;
+}
+
+.bottompadder50 {
+    padding-bottom: 50px;
+}
+
+.bottompadder60 {
+    padding-bottom: 60px;
+}
+
+.bottompadder70 {
+    padding-bottom: 70px;
+}
+
+.bottompadder80 {
+    padding-bottom: 80px;
+}
+
+.bottompadder90 {
+    padding-bottom: 90px;
+}
+
+.bottompadder100 {
+    padding-bottom: 100px;
+}
+
+.btn {
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #00bbd3;
+    padding: 0 23px;
+    background-color: #00bbd3;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+
+.btn:hover {
+    background: transparent !important;
+    color: #00bbd3 !important;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.left {
+    float: left;
+}
+
+/* --------banner css--------- */
+
+.line_color {
+    width: 141%;
+    height: 250px;
+    background: #aa0219;
+    z-index: 0;
+    transform: translate(-262px, -189px) rotate(-40deg);
+}
+
+.line_color:after {
+    bottom: 0;
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 250px;
+    background: #ffffff;
+    right: -320px;
+    transform: skew(-36deg);
+}
+
+.sclub_slide {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    height: 950px;
+}
+
+.sclub_slide_content h1 span {
+    color: #fff;
+}
+
+.sclub_slide_content p {
+    color: #fff;
+    margin-top: 80px;
+    text-align: right;
+    z-index: 1;
+    position: relative;
+}
+
+.sclub_btn {
+    background: #fff;
+    line-height: 48px;
+    border-radius: 30px;
+    display: inline-block;
+    min-width: 120px;
+    height: 50px;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+.sclub_btn:hover {
+    background: transparent;
+    color: #fff;
+    border: 2px solid;
+}
+
+.sclub_slide_content .heading1,
+.sclub_slide_content .bnr_heading2 h1 {
+    font-size: 130px;
+}
+
+.sclub_slide_content .bnr_heading1 h4 {
+    color: #ffffff;
+    font-size: 24px;
+    position: absolute;
+    left: 120px;
+    top: 90px;
+}
+
+.sclub_slide_content .bnr_heading1 {
+    margin-top: 80px;
+}
+
+.sclub_slide_content .bnr_heading1 h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.sclub_main_slider {
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    height: 950px;
+    overflow: hidden;
+}
+
+.baner_content2 {
+    bottom: 50px;
+    width: 100%;
+}
+
+.banner_sec2 {
+    border: 1px solid #fff;
+    padding: 20px;
+    background: #050608;
+}
+
+.banner_sec2 img,
+.banner_sec2 h1 {
+    display: inline;
+}
+
+.banner_sec2 h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* --------banner css--------- */
+
+.heading1 {
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.heading {
+    font-size: 36px;
+    color: #00bbd3;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.subheading {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.paragraph {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    color: #777777;
+    letter-spacing: 0.07px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: -10%;
+    right: 20px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 30px;
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#back-to-top.show :hover {
+    opacity: 0.8;
+}
+
+#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    bottom: 2%;
+    animation: rotateIn 3s ease-in-out infinite alternate;
+    -webkit-animation: rotateIn 3s ease-in-out infinite alternate;
+    -moz-animation: rotateIn 3s ease-in-out infinite alternate;
+    -ms-animation: rotateIn 3s ease-in-out infinite alternate;
+    -o-animation: rotateIn 3s ease-in-out infinite alternate;
+}
+
+#content {
+    height: 2000px;
+}
+
+/** loader css start**/
+
+.sclub_loader_wrapper {
+    position: fixed;
+    background-color: #00bbd3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+}
+
+.sclub_loader_wrapper .sclub_loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.sclub_loader_wrapper .sclub_loader>img {
+    animation: loader 2s ease-in-out infinite;
+}
+
+.sclub_shadow {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 50%;
+    margin-left: -30px;
+    background-color: #00000021;
+    border-radius: 100%;
+    z-index: -1;
+    bottom: -80px;
+    animation: loader_shadow 2s ease-in-out infinite;
+}
+
+.sclub_set_time .sclub_loader_wrapper {
+    display: none;
+}
+
+@keyframes loader {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes loader_shadow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@-webkit-keyframes loader {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-webkit-keyframes loader_shadow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@-moz-keyframes loader {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-moz-keyframes loader_shadow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+@-o-keyframes loader {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@-o-keyframes loader_shadow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0);
+    }
+}
+
+/***************************************
+2. Modules - reusable parts of our design end
+****************************************/
+
+/***************************************
+3. banner start
+****************************************/
+
+/* ANIMATIONS */
+
+@keyframes kenburns {
+    5% {
+        transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+    45% {
+        transform: scale3d(1.5, 1.5, 1.5) translate3d(-100px, -30px, 0px);
+        animation-timing-function: ease-in;
+    }
+    60% {
+        transform: scale3d(1.5, 1.5, 1.5) translate3d(-100px, -30px, 0px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes mobileburns {
+    5% {
+        transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+    65% {
+        transform: scale3d(2.5, 2.5, 2.5) translate3d(-100px, -30px, 0px);
+        animation-timing-function: ease-in;
+    }
+    80% {
+        transform: scale3d(2.5, 2.5, 2.5) translate3d(-100px, -30px, 0px);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes noburns {
+    100% {
+        transform: none;
+    }
+}
+
+.sclub_header_wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.sclub_header_wrapper_bg {
+    box-shadow: 0 12px 29px 0 rgba(0, 0, 0, 0.30);
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.sclub_header_wrapper .sclub_logo {
+    float: left;
+    padding: 20px;
+    background: #00bbd3;
+}
+
+.sclub_header_wrapper .sclub_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>ul.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #131212;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    box-shadow: 0 12px 29px 0 rgba(0, 0, 0, 0.09);
+}
+
+.sclub_header_wrapper .sclub_menu ul>li:hover>ul.submenu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li:hover>ul.submenu li a {
+    color: #fff;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>ul.submenu>li {
+    margin-right: 0px;
+    padding: 6px 15px;
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 1px solid #232323;
+    text-align: left;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>ul.submenu>li:last-child {
+    border-bottom: 0;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>ul.submenu>li:hover {
+    background: #fff;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>ul.submenu>li:hover a {
+    color: #00bbd3;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>ul.submenu>li>a {
+    font-size: 15px;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li {
+    display: inline-block;
+    padding: 32px 15px;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li:hover {
+    border-radius: 5px;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li:hover a {
+    color: #00bbd3;
+}
+
+.sclub_header_wrapper ul.sub_menu li:hover {
+    background: #fff;
+}
+
+.sclub_header_wrapper .sclub_menu ul>li>a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #ffffff;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+}
+
+.sclub_header_wrapper .navbar {
+    margin: 0;
+    min-height: auto;
+    border: none;
+}
+
+.sclub_header_wrapper .navbar .navbar-collapse {
+    padding: 0px;
+}
+
+.sclub_header_wrapper .search_header {
+    text-align: right;
+}
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+
+.sclub_header_wrapper .search_header i {
+    color: #fff;
+    background: #00bbd3;
+    font-size: 20px;
+    padding: 35px 25px;
+    text-align: center;
+}
+
+.sclub_header_wrapper .search_header #modal_popup {
+    z-index: 1060;
+}
+
+.search_header input {
+    height: 60px;
+    border-radius: 35px;
+    background: #fff;
+    padding: 10px 75px 10px 25px;
+    outline: none;
+}
+
+.search_header input:focus {
+    border: none;
+    outline: none;
+}
+
+.search_header .modal-content {
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+.search_header .modal-header {
+    border: none;
+}
+
+.search_header .modal-header .close {
+    margin-top: -2px;
+    color: #fff;
+    opacity: 1;
+}
+
+.search_header .modal-dialog {
+    width: 800px;
+    margin: 15%auto;
+}
+
+.search_header .modal-body a {
+    position: absolute;
+    right: 14px;
+    top: 15px;
+    color: white;
+    background: #00bbd3;
+    height: 60px;
+    width: 70px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 0 30px 30px 0;
+    font-size: 20px;
+}
+
+.sclub_set_time.modal-open .modal {
+    background: rgba(0, 0, 0, 0.54);
+}
+
+/***************************************
+3. banner end
+****************************************/
+
+/***************************************
+4. sports start
+****************************************/
+
+.sclub_sports_wrapper {
+    margin-top: -120px;
+    z-index: 10;
+}
+
+.sclub_sports_wrapper .sport_section {
+    width: 100%;
+    float: left;
+    transition: 03s;
+    line-height: 0;
+}
+
+.sclub_sports_wrapper .sports_hover .sport_overlay {
+    opacity: 1;
+}
+
+.sclub_sports_wrapper .sports_hover:hover .sport_overlay {
+    opacity: 0;
+}
+
+.sports_hover {
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.sports_hover .sport_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.67);
+    opacity: 0;
+    backface-visibility: hidden;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+
+.sport_overlay .sports_icon {
+    position: inherit;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.sports_icon a {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.sports_hover .sport_overlay a:hover {
+    color: #ffffff;
+}
+
+.sports_hover:hover .sport_overlay {
+    opacity: 1;
+    backface-visibility: visible;
+    left: 0;
+    top: 0;
+    right: 0;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    bottom: 0;
+}
+
+.sclub_sports_wrapper .sport_section p.subheading {
+    position: absolute;
+    top: 150px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.sclub_sports_wrapper .sport_section .sports_image {
+    overflow: hidden
+}
+
+.sports_hover {
+    overflow: hidden;
+}
+
+.sports_hover .sport_overlay:after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(30deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.13) 77%, rgba(255, 255, 255, 0.5) 92%, rgba(255, 255, 255, 0.0) 100%);
+}
+
+.sports_hover .sport_overlay:hover:after {
+    opacity: 1;
+    left: 130%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+}
+
+/***************************************
+4. sport end
+****************************************/
+
+/***************************************
+	latest result start
+****************************************/
+
+.latest_result {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+
+.latest_result .latest_result_sec1_img,
+.latest_result .latest_result_sec1_content,
+.latest_result .latest_result_sec2_img,
+.latest_result .latest_result_sec2_content {
+    display: inline-block;
+}
+
+.latest_result .latest_result_sec1 {
+    text-align: right;
+}
+
+.latest_result_sec2 img {
+    display: inline-block;
+    width: 32px;
+}
+
+.latest_result .latest_result_sec2 h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #00bbd3;
+    margin-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.latest_result .latest_result_sec2 h2 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #707070;
+    margin-top: 60px;
+}
+
+.latest_result .latest_result_sec2 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    padding: 40px 0;
+}
+
+.team_name_result2 h3,
+.team_name_result1 h3 {
+    color: #fff;
+    background: #00bbd3;
+    margin-top: 30px;
+    height: 80px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.team_name_result1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.team_name_result1 h3 span,
+.team_name_result2 h3 span {
+    font-weight: 100;
+    display: block;
+    padding-top: 3px;
+}
+
+.team_name_result1 h3,
+.team_name_result2 h3 {
+    font-weight: 700;
+}
+
+.team_name_result1 h3:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background: #00bbd3;
+    right: -14px;
+    bottom: 0;
+    -webkit-transform: skewX(-25deg);
+    -moz-transform: skewX(-25deg);
+    -ms-transform: skewX(-25deg);
+    -o-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    z-index: -1;
+}
+
+.team_name_result2 h3:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    background: #00bbd3;
+    left: -14px;
+    bottom: 0;
+    -webkit-transform: skewX(25deg);
+    -moz-transform: skewX(25deg);
+    -ms-transform: skewX(25deg);
+    -o-transform: skewX(25deg);
+    transform: skewX(25deg);
+    z-index: -1;
+}
+
+/***************************************
+	latest result end
+****************************************/
+
+/***************************************
+	Up coming Matches
+****************************************/
+
+.upcoming_matches {
+    background-image: url("../images/match_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.upcoming_matches .container {
+    position: relative;
+}
+
+.upcoming_matches:before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(to bottom, rgba(82, 82, 82, 0.23), rgba(0, 0, 0, 0.8));
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.counter {
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.counter ul {
+    padding: 0;
+    margin: 0;
+}
+
+.counter li {
+    display: inline-block;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 18px;
+    text-transform: capitalize;
+}
+
+.counter li span {
+    display: block;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.upcoming_matches .latest_result_sec2 p,
+.upcoming_matches .latest_result_sec2 h1 {
+    color: #fff;
+}
+
+.upcoming_matches .counter_bg {
+    background-color: rgba(255, 255, 255, .17);
+    display: inline-block;
+    padding: 35px 0;
+    border-radius: 10px;
+}
+
+.upcoming_list .swiper-container {
+    height: 380px;
+    overflow: hidden;
+}
+
+.upcoming_list {
+    border-radius: 10px;
+}
+
+.upcoming_list table tr td {
+    color: #fff;
+    vertical-align: middle;
+    padding: 12px 8px;
+    border-top: 0px solid red;
+}
+
+.upcoming_list table {
+    margin-bottom: 0;
+}
+
+.upcoming_list table a {
+    transition: 0.3s;
+}
+
+.upcoming_list table tr {
+    border-bottom: 1px solid #a2a2a2;
+}
+
+.upcoming_list table tr:last-child {
+    border-bottom: 0px solid #a2a2a2;
+}
+
+.upcoming_list table tr td img {
+    width: 25px;
+}
+
+.upcoming_list table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, .17);
+}
+
+.upcoming_list table tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .33);
+}
+
+.upcoming_list table tr td:first-child {
+    position: relative;
+}
+
+.upcoming_list table tr td:first-child:after {
+    content: '|';
+    position: absolute;
+    right: 20px;
+}
+
+.upcoming_matches .latest_result_sec1_content {
+    padding-top: 15px;
+}
+
+.upcoming_matches .latest_result_sec2 p {
+    padding: 35px 0;
+}
+
+/***************************************
+	Up coming Matches
+****************************************/
+
+/***************************************
+5. tranning start
+****************************************/
+
+.sclub_traning_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #edf8ff;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.sclub_traning_wrapper .traning_Section {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sclub_traning_wrapper .traning_Section:hover {
+    box-shadow: 0px 12px 29px 0px rgba(0, 0, 0, 0.07);
+}
+
+.traning_Section ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.traning_Section ul>li {
+    float: left;
+    line-height: 20px;
+    padding: 0px 0px 15px 0px;
+}
+
+.training_img {
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.traning_Section ul p.paragraph i {
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+    color: #00bbd3;
+}
+
+.traning_Section ul>li .paragraph {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #00bbd3;
+}
+
+.traning_Section .dollar_bg {
+    position: relative;
+}
+
+.traning_Section .dollar_bg span.paragraph {
+    position: absolute;
+    top: -50px;
+    right: 35px;
+    background: #00bbd3;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 3px;
+    color: #fff !important;
+}
+
+.traning_Section h2,
+.traning_Section p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.traning_Section .fa-share-square-o {
+    cursor: pointer;
+}
+
+/***************************************
+5. tranning end
+****************************************/
+
+/***************************************
+6. gallery start
+****************************************/
+
+.sclub_gallery_wrapper {
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.gallery_Section {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.gallery_Section .sport_overlay .sports_icon,
+.training_img .sport_overlay .sports_icon {
+    top: 50%;
+}
+
+/***************************************
+6. gallery end
+****************************************/
+
+/***************************************
+7. timer start
+****************************************/
+
+.sclub_timer_wrapper {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+    background-color: #edf8ff;
+    position: relative;
+}
+
+.sclub_timer_wrapper .timer_section {
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    position: relative;
+    z-index: 1;
+    padding: 29px 15px;
+    background: #00bbd3;
+    border-radius: 10px;
+}
+
+.timer_section .heading {
+    padding-bottom: 10px;
+    font-size: 30px;
+    padding-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.timer_section .paragraph {
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.timer_section .paragraph:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    margin: auto;
+    width: 60px;
+    height: 2px;
+    background: #fff;
+    left: 0;
+    right: 0;
+}
+
+.sclub_timer_wrapper .timer_section p:last-child {
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    letter-spacing: 0.07px;
+    padding-top: 10px;
+}
+
+.m_t_15 {
+    margin-top: 15px;
+}
+
+.m_b_15 {
+    margin-bottom: 15px;
+}
+
+.sclub_timer_wrapper .timer_section_video img {
+    border-radius: 10px;
+}
+
+.sclub_timer_wrapper .timer_section_video {
+    position: relative;
+}
+
+.sclub_timer_wrapper .timer_section_video .play_button {
+    position: absolute;
+    top: 44%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    width: 60px;
+}
+
+.timer_section_video:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.58);
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+
+.sclub_timer_wrapper .timer_section_video .play_button path {
+    fill: #00bbd3;
+    transition: 0.3s;
+}
+
+.sclub_timer_wrapper .timer_section_video .play_button:hover path {
+    fill: #fff;
+}
+
+/***************************************
+7. timer end
+****************************************/
+
+/***************************************
+8. staff start
+****************************************/
+
+.sclub_staff_wrapper {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+
+.sclub_staff_wrapper .staff_section {
+    width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.sclub_staff_wrapper .staff_section:hover {
+    box-shadow: 0 12px 29px 0 rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+}
+
+.staff_section .subheading {
+    font-weight: 600;
+}
+
+.sclub_staff_wrapper .staff_section .sports_hover,
+.player_section .sports_hover {
+    border-radius: 10px 10px 0 0;
+}
+
+.staff_section .subheading a {
+    transition: 0.3s;
+}
+
+.staff_section .paragraph {
+    text-transform: capitalize;
+}
+
+.staff_section .gallery_Section,
+.sclub_player_wrapper .player_section>div {
+    overflow: hidden;
+}
+
+.staff_section .gallery_Section>img,
+.sclub_player_wrapper .player_section>div>img,
+.blog_Section .blog_image>img {
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+
+.staff_section:hover .gallery_Section>img,
+.sclub_player_wrapper .player_section:hover>div>img,
+.blog_Section:hover .blog_image>img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/***************************************
+8. staff end
+****************************************/
+
+/***************************************
+9. newslatter start
+****************************************/
+
+.newslatter_form {
+    position: relative;
+}
+
+.newslatter_form a {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #333;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.newslatter_form a:hover {
+    color: #00bbd3;
+}
+
+.newslatter_form a:before {
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    right: 36px;
+    background: #fff;
+    content: '';
+    top: -2px;
+}
+
+.newslatter_form .form-group {
+    margin-bottom: 0px;
+    position: relative;
+    margin: auto;
+}
+
+.newslatter_form .form-control {
+    height: 50px;
+    line-height: 50px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    line-height: 20px;
+    color: #bdbdbd;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-right: 70px;
+}
+
+.newslatter_form input::placeholder {
+    color: #bdbdbd !important;
+}
+
+/***************************************
+9. newslatter end
+****************************************/
+
+/***************************************
+10. footer start
+****************************************/
+
+.sclub_footer_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #27323e;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.sclub_footer_wrapper .footer_section {
+    width: 100%;
+    float: left;
+}
+
+.footer_section h1,
+.footer_section.foot_logo img {
+    padding-bottom: 20px;
+}
+
+.footer_section.foot_insta img {
+    border-radius: 10px;
+    margin-right: 2px;
+    transition: 0.3s;
+}
+
+.footer_section.foot_insta img:hover {
+    opacity: 0.7;
+}
+
+.footer_section h1 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.footer_section.foot_insta ul li {
+    display: inline-block;
+}
+
+.footer_section p,
+.footer_section a {
+    color: #bdbdbd;
+    padding-bottom: 10px;
+}
+
+.sclub_copyright_wrapper .policy_term li a {
+    color: #bdbdbd;
+}
+
+.footer_section.footer_sec2 li {
+    padding-bottom: 10px;
+}
+
+.footer_section.footer_sec3 p {
+    color: #00bbd3;
+    padding-bottom: 2px;
+}
+
+.footer_section.footer_sec3 a {
+    padding-bottom: 20px;
+    display: block
+}
+
+.footer_section.footer_sec3 a:last-child {
+    padding-bottom: 0;
+}
+
+.sclub_copyright_wrapper ul.social_icon,
+.footer_section>ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.sclub_copyright_wrapper .policy_term {
+    padding: 0;
+    text-align: right;
+    margin: 0;
+}
+
+.sclub_copyright_wrapper .policy_term li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.sclub_footer_wrapper ul.social_icon>li {
+    display: initial;
+    border: none;
+    margin-right: 10px;
+}
+
+.sclub_footer_wrapper ul.social_icon>li>a {
+    width: 35px;
+    text-decoration: none;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    height: 35px;
+    border: 2px solid white;
+    text-align: center;
+    line-height: 34px;
+    display: inline-block;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.sclub_footer_wrapper ul.social_icon {
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.sclub_footer_wrapper ul.social_icon>li>a:hover {
+    color: #ffffff;
+    background: #00bbd3;
+    border-color: #00bbd3;
+}
+
+.sclub_footer_wrapper ul.social_icon>li:last-child {
+    margin-right: 0;
+}
+
+.footer_section>ul>li>a {
+    text-decoration: none;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+
+.footer_section>ul>li>a .paragraph:hover {
+    color: #00bbd3;
+}
+
+.footer_section>ul>li:first-child {
+    padding-top: 0px;
+}
+
+.footer_section>ul>li:last-child {
+    padding-bottom: 0px;
+    border: none;
+}
+
+.sclub_copyright_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #20272f;
+}
+
+.sclub_copyright_wrapper .paragraph {
+    color: #bdbdbd;
+    text-align: left;
+}
+
+.footer_section a:hover,
+.sclub_copyright_wrapper .policy_term li a:hover {
+    color: #00bbd3;
+}
+
+.footer_section a,
+.sclub_copyright_wrapper .policy_term li a {
+    transition: 0.3s;
+}
+
+.sclub_copyright_wrapper .row {
+    padding: 20px 0px;
+    margin: 0;
+}
+
+/***************************************
+10. footer end
+****************************************/
+
+/***************************************
+12. about page start
+****************************************/
+
+.sclub_banner2_wrapper {
+    background-image: url(../images/head_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    position: relative;
+    padding-top: 200px;
+}
+
+.sclub_banner2_wrapper:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.64);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.about_bg {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0px 29px 0 rgba(0, 0, 0, 0.15);
+    position: absolute;
+    width: 110%;
+    top: 30px;
+    left: -100px;
+}
+
+.sclub_banner2_wrapper .container {
+    z-index: 1;
+    position: relative;
+}
+
+.sclub_banner2_wrapper .heading {
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.sclub_about_wrapper h4.about_para_head {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.sclub_about_wrapper .heading {
+    color: #333;
+}
+
+.sclub_breacrum {
+    text-align: center;
+}
+
+.sclub_breacrum li span {
+    color: #fff;
+}
+
+.sclub_breacrum>ol {
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.sclub_breacrum>ol>li>a {
+    text-decoration: none;
+    color: #00bbd3;
+    font-size: 16px;
+}
+
+.sclub_about_wrapper {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+
+.sclub_about_wrapper .paragraph {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sclub_about_wrapper .about_img img {
+    border-radius: 10px;
+}
+
+.about_detail>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    column-count: 2;
+}
+
+.about_detail>ul>li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about_detail>ul>li:last-child {
+    margin-bottom: 0px;
+}
+
+.about_detail .heading {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    color: #00bbd3;
+}
+
+.about_main_head {
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.about_main_head span {
+    color: #00bbd3;
+}
+
+.sclub_about_wrapper .about_detail span {
+    color: #00bbd3;
+    padding-top: 2px;
+    border-bottom: 2px solid;
+}
+
+.about_detail .paragraph {
+    padding: 0;
+}
+
+.radius {
+    border-radius: 100%;
+}
+
+.about_detail>ul.text-left>li {
+    text-align: left;
+}
+
+.sclub_testomonial_wrapper {
+    width: 100%;
+    float: left;
+    background-image: url('../images/test_bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed;
+}
+
+.sclub_testomonial_wrapper p.paragraph.paragraph_bg {
+    background: #fff;
+    padding: 25px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.sclub_testomonial_wrapper p.paragraph.paragraph_bg:after {
+    content: '';
+    position: absolute;
+    left: 43px;
+    bottom: -10px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #fff;
+}
+
+.sclub_testomonial_wrapper .testimonial_section {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.sclub_testomonial_wrapper .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+    bottom: -5px;
+}
+
+.sclub_testomonial_wrapper .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+}
+
+.sclub_testomonial_wrapper .swiper-pagination-bullet-active {
+    background: #00bbd3;
+}
+
+.sclub_testomonial_wrapper .testimonial_section img {
+    padding: 15px;
+    display: inline-block;
+}
+
+.sclub_testomonial_wrapper .heading {
+    padding-bottom: 30px;
+}
+
+.sclub_testomonial_wrapper .paragraph {
+    color: #333;
+    padding-bottom: 30px;
+}
+
+.sclub_testomonial_wrapper .paragraph.capital {
+    text-transform: capitalize;
+    padding-bottom: 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.testimonial_slider {
+    width: 100%;
+    float: left;
+}
+
+.sclub_best_wrapper {
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.sclub_best_wrapper .best_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.best_section .circle {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    border-radius: 80px;
+    background-color: #00bbd3;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border: 2px solid #00bbd3;
+    text-align: center;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+
+.best_section:hover .circle {
+    background-color: rgba(0, 187, 211, 0);
+    border: 2px solid #00bbd3;
+    color: #00bbd3;
+}
+
+.best_section .heading {
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.sclub_testomonial_wrapper .testimonial_section svg {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 1;
+}
+
+.sclub_testomonial_wrapper .testimonial_section svg path {
+    fill: rgba(0, 187, 211, 0.13);
+}
+
+/***************************************
+12. about page end
+****************************************/
+
+/***************************************
+13. activity page start
+****************************************/
+
+.activity_training {
+    background-color: #f5f5f5;
+}
+
+.activity_training .subheading {
+    padding: 0 15px;
+}
+
+.activity_training .btn {
+    margin: 20px 0;
+    margin-left: 15px;
+}
+
+.activity_training .activitY_img img {
+    width: 100%;
+}
+
+.activity_training .activity_section {
+    width: 90%;
+    float: none;
+    margin: -50px auto 30px;
+    position: relative;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.activity_section .heading {
+    font-size: 20px;
+    padding: 0 15px;
+    padding-bottom: 0px;
+    color: #333;
+}
+
+.activity_section .subheading {
+    font-size: 16px;
+    color: #00bbd3;
+    text-transform: capitalize;
+}
+
+.sclub_sports_wrapper.page_activity {
+    padding: 100px 0;
+    float: left;
+    width: 100%;
+    margin-top: 0;
+}
+
+.traning_Section.activity_section img {
+    width: 100%;
+}
+
+/**activity singel**/
+
+.sclub_activity_single_wrapper {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+}
+
+.sclub_activity_single_wrapper .heading {
+    padding-bottom: 30px;
+}
+
+.sclub_activity_single_wrapper .activity_image {
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.sclub_activity_single_wrapper .activity_image img {
+    border-radius: 10px;
+}
+
+.activity_description {
+    width: 100%;
+    float: left;
+}
+
+.activity_description h2.subheading {
+    color: #444;
+    font-size: 24px;
+}
+
+.activity_description p,
+.plan_time p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    color: #777777;
+    letter-spacing: 0.07px;
+}
+
+.activity_description .subheading,
+.activity_info .subheading,
+.plan_time .subheading,
+.activity_slider .subheading {
+    text-transform: capitalize;
+    font-size: 26px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.activity_slider img {
+    border-radius: 10px;
+}
+
+.activity_description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.activity_description ul>li {
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    position: relative;
+}
+
+.activity_description ul>li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #00bbd3;
+}
+
+.activity_info {
+    width: 100%;
+    float: left;
+    background-color: #f5f5f5;
+}
+
+.activity_slider .swiper-button-next,
+.activity_slider .swiper-button-prev {
+    top: 30px;
+    background: transparent !important;
+    outline: none;
+}
+
+.activity_slider .swiper-button-next,
+.activity_slider .swiper-container-rtl .swiper-button-prev {
+    right: 0px;
+    left: auto;
+}
+
+.activity_slider .swiper-button-prev,
+.activity_slider .swiper-container-rtl .swiper-button-next {
+    right: 18px;
+    left: auto;
+}
+
+.activity_slider .swiper-button-next:after {
+    content: "\f105";
+    font-family: 'fontawesome';
+    color: #0473aa;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.activity_slider .swiper-button-prev:before {
+    content: "\f104";
+    font-family: 'fontawesome';
+    color: #0473aa;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.activity_info>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.activity_info>ul>li {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #dddddd;
+    padding: 8px 20px;
+}
+
+.activity_info>ul>li>label {
+    position: relative;
+    font-weight: 400;
+    color: #444;
+    padding-left: 25px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.activity_info>ul>li>label:after {
+    position: absolute;
+    content: '\f00c';
+    left: 0;
+    top: 50%;
+    color: #00bbd3;
+    font-family: FontAwesome;
+    font-size: 14px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.activity_info>ul>li:last-child {
+    border-bottom: none;
+}
+
+.activity_info .subheading {
+    padding: 15px 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.plan_time {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.activity_slider {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+/**sidebar**/
+
+.sclub_sidebar {
+    width: 100%;
+    float: left;
+}
+
+.widget {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.widget_search {
+    position: relative;
+}
+
+.widget_search .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 30px;
+    padding: 0 18px;
+}
+
+.widget.widget_categories a {
+    transition: 0.3s;
+}
+
+.widget_search .btn:hover {
+    background-color: #00bbd3 !important;
+}
+
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    color: #fff;
+}
+
+.widget-title,
+.comments-title,
+.comment-reply-title {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 15px 0;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    margin-bottom: 30px;
+}
+
+.widget_search .form-group {
+    margin-bottom: 0;
+}
+
+.sidebar_flex {
+    display: flex;
+}
+
+.sidebar_img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.sidebar_content h2 {
+    color: #333;
+    margin-bottom: 6px;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 0.3s;
+    width: 270px;
+}
+
+.sidebar_content h2:hover {
+    color: #00bbd3;
+}
+
+.sidebar_content p {
+    color: #707070;
+    width: 270px;
+}
+
+.sidebar_content {
+    padding-left: 20px;
+}
+
+.widget_categories p.paragraph span {
+    float: right;
+}
+
+.widget-title:after,
+.comments-title:after,
+.comment-reply-title:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #00bbd3;
+}
+
+.widget_resentpost>ul,
+.widget_archive>ul,
+.widget_categories>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget_resentpost>ul>li,
+.widget_archive>ul>li,
+.widget_categories>ul>li {
+    float: left;
+    width: 100%;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.widget_resentpost>ul>li:last-child,
+.widget_archive>ul>li:last-child,
+.widget_categories>ul>li:last-child {
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.widget_archive>ul>li .paragraph,
+.widget_categories>ul>li .paragraph,
+.widget_resentpost>ul>li {
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.widget_flickrgallery>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widget_flickrgallery>ul>li img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.widget_flickrgallery>ul>li {
+    float: left;
+    width: 25%;
+    margin-bottom: 10px;
+    transition: all 0.35s ease-in;
+    margin-right: 2px;
+    transition: 0.3s;
+}
+
+.widget_search .form-control {
+    padding-right: 100px;
+}
+
+.widget_flickrgallery>ul>li:hover {
+    opacity: 0.7;
+}
+
+.widget_tag_cloud .locksmith_tag {
+    width: 100%;
+    float: left;
+}
+
+.widget_tag_cloud .locksmith_tag a {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #ffffff00;
+    color: #444444;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px 18px;
+    margin-bottom: 6px;
+    margin-right: 3px;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+
+.widget_tag_cloud .locksmith_tag a:hover {
+    background-color: #00bbd3;
+    color: #ffffff;
+}
+
+/***************************************
+13. activity page end
+****************************************/
+
+/***************************************
+14. team&player page start
+****************************************/
+
+.sclub_player_wrapper {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+    background: #f5f5f5;
+}
+
+.sclub_player_wrapper .player_section {
+    width: auto;
+    border-radius: 10px;
+    background: #fff;
+    display: inline-block;
+}
+
+.sclub_player_wrapper .player_section li {
+    list-style: none;
+    padding: 2px 0px;
+}
+
+.sclub_player_wrapper .player_section h1 {
+    padding: 8px 0 15px;
+}
+
+.player_section .heading {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.player_section ul.social_icon>li>a {
+    background-color: transparent;
+    color: #00bbd3;
+    transition: 0.3s;
+}
+
+.player_section ul.social_icon>li>a:hover {
+    color: #333;
+}
+
+.sclub_player_wrapper .player_section .social_icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: white;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    border-radius: 2px;
+}
+
+.sclub_player_wrapper .player_section:hover .social_icon {
+    opacity: 1;
+    visibility: visible;
+}
+
+/***************************************
+14. team&player page end
+****************************************/
+
+/***************************************
+16. enquiry page start
+****************************************/
+
+.sclub_map_section {
+    width: 100%;
+    float: left;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    text-transform: capitalize;
+}
+
+.right {
+    float: right;
+}
+
+.sclub_contact_form_wrapper {
+    width: 100%;
+    float: left;
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+.sclub_contact_form_wrapper .contact_form {
+    padding: 25px 25px 15px;
+    box-shadow: 0 6px 29px 0 rgba(0, 0, 0, 0.10);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.contact_form .form-control,
+.widget_search .form-control,
+.comment-respond .form-control {
+    height: 50px;
+    width: 84%;
+    border-radius: 0px;
+    border: 2px solid #ffffff;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+    margin-right: 10px !important;
+}
+
+.contact_form .form-control {
+    color: #707070;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.widget_search .form-control {
+    color: #707070;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+}
+
+.contact_form textarea {
+    resize: none;
+    min-height: 100px;
+}
+
+.contact_form .form-control::-moz-placeholder {
+    color: #a7a5a9;
+    opacity: 1;
+}
+
+.contact_form .form-control:-ms-input-placeholder {
+    color: #a7a5a9;
+}
+
+.contact_form .form-control::-webkit-input-placeholder {
+    color: #a7a5a9
+}
+
+.contact_form .btn svg path,
+.contact_form .btn svg polygon {
+    fill: #fff;
+}
+
+.sclub_contact_form_wrapper .contact_text {
+    padding: 60px 25px;
+    background: #00bbd3;
+    height: 380px;
+    box-shadow: 0px 6px 29px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    position: absolute;
+    top: 70px;
+    left: -110px;
+    width: 100%;
+}
+
+.contact_text .paragraph {
+    padding-bottom: 30px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.contact_text h2 {
+    color: #fff !important;
+}
+
+.contact_text svg {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.contact_text svg path,
+.contact_text svg circle {
+    fill: #fff;
+}
+
+.contact_text_flex {
+    display: flex;
+}
+
+.contact_text_flex a:hover {
+    color: #fff;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-shadow: none;
+    border-bottom: 1px solid #000000;
+    text-decoration: none !important;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+    padding: 5px;
+}
+
+.link:hover {
+    border-color: #00bbd3;
+    color: #00bbd3;
+}
+
+.show-submenu {
+    display: none;
+}
+
+.sclub_contact_form_wrapper h2 {
+    padding-bottom: 25px;
+    color: #444;
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+}
+
+.sclub_contact_form_wrapper .contact_form h2:after {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    width: 62px;
+    height: 2px;
+    background: #00bbd3;
+    left: 3px;
+}
+
+.sclub_contact_form_wrapper .contact_text ul.social_icon {
+    padding: 0;
+}
+
+.sclub_contact_form_wrapper .contact_text ul.social_icon li {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+.sclub_contact_form_wrapper .contact_text ul.social_icon a {
+    color: #fff;
+    border: 2px solid #fff;
+    line-height: 35px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.sclub_contact_form_wrapper .contact_text ul.social_icon a:hover {
+    color: #333;
+}
+
+.response {
+    color: rgb(255, 0, 0);
+}
+
+/***************************************
+16. enquiry page end
+****************************************/
+
+/***************************************
+17. blog page start
+****************************************/
+
+.sclub_blog_wrapper {
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.sclub_blog_wrapper .blog_Section {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.blog_image {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.blog_content {
+    box-shadow: 0px 12px 29px 0px rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    margin-top: -70px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sclub_blog_wrapper.single_blog .blog_Section {
+    overflow: hidden;
+}
+
+.blog_sharing {
+    margin: 20px 0 0;
+}
+
+.blog_sharing>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    transform: translate(190px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.blog_Section:hover ul {
+    transform: translate(0px);
+    opacity: 1;
+}
+
+.blog_sharing>ul>li {
+    float: left;
+    margin-right: 15px;
+}
+
+.blog_sharing>ul>li:last-child {
+    margin-right: 0px;
+}
+
+.blog_sharing>ul>li>label {
+    margin-right: 6px;
+    font-size: 20px;
+    color: #494949;
+}
+
+.blog_sharing>ul>li>label i {
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.blog_sharing>ul>li>label i:hover {
+    color: #00bbd3;
+    cursor: pointer;
+}
+
+.blog_sharing a {
+    float: left;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+
+.blog_sharing>ul>li>span {
+    font-size: 16px;
+    color: #2d2d2d;
+}
+
+.sclub_blog_wrapper .blog_Section>a {
+    float: left;
+    color: #00bbd3;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+    left: auto;
+}
+
+.blog_Section a i {
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.blog_image p span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog_image p {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background: #00bbd3;
+    color: #fff;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+}
+
+.blog_Section h2 a,
+.blog_Section h2 {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #00bbd3;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sclub_blog_wrapper.blog3column .blog_content {
+    width: 90%;
+}
+
+.blog4column .blog_sharing a {
+    float: none;
+}
+
+.blog4column .blog_sharing>ul>li>label {
+    font-size: 18px;
+}
+
+.blog4column .blog_sharing>ul>li>span {
+    font-size: 14px;
+}
+
+.blog4column.sclub_blog_wrapper .blog_Section>a {
+    font-size: 14px;
+}
+
+.blockquote {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+    line-height: 30px;
+    background: #f5f5f5;
+    padding: 30px 85px;
+    position: relative;
+    margin: 30px 0;
+}
+
+.blockquote:after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/quotes1.png);
+    width: 29px;
+    height: 22px;
+    left: 45px;
+    top: 18px;
+}
+
+.blockquote:before {
+    position: absolute;
+    content: '';
+    background-image: url(../images/quotes2.png);
+    width: 29px;
+    height: 22px;
+    right: 90px;
+    bottom: 21px;
+}
+
+.pt_0 {
+    padding-top: 0 !important;
+}
+
+.comments-area {
+    width: 100%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.comment-list,
+.comments-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.comment-list li {
+    width: 100%;
+    float: left;
+}
+
+.comment_wrapper {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.comments {
+    width: 100%;
+    float: left;
+}
+
+.comments .authore_img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.comments .authore_img img {
+    border-radius: 10px;
+}
+
+.comments .content {
+    width: calc(100% - 80px);
+    float: left;
+    padding-left: 15px;
+}
+
+.comments .content .subheading {
+    line-height: 16px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.comments .content .date {
+    padding-top: 17px;
+    width: 100%;
+    float: left;
+    line-height: 16px;
+}
+
+.comments .content .date span,
+.comments .content .date .reply>a {
+    color: #a9a9a9;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.comments .content .date .reply>a:hover {
+    color: #00bbd3;
+}
+
+.comments .content .date .reply {
+    float: right;
+}
+
+.comments-area .children .comment_wrapper {
+    padding-left: 60px;
+}
+
+.comment-respond .form-control {
+    font-size: 14px;
+    color: #707070;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+.comment-respond .message .form-control {
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    color: #a7a5a9;
+    resize: none;
+    min-height: 100px;
+}
+
+.comment-respond .btn {
+    margin: 0;
+    border-color: #00bbd3;
+    color: #fff;
+    padding: 0 40px;
+}
+
+.comment-respond .btn:hover {
+    color: #00bbd3 !important;
+    background-color: #00bbd3;
+}
+
+.widget_search .btn:hover {
+    color: #ffffff !important;
+    background-color: #00bbd3;
+}
+
+.sidebar.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.single_blog .blog_Section:hover .blog_image img {
+    transform: scale(1);
+}
+
+/***************************************
+17. blog page end
+****************************************/
+
+/*******responsive css start****/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sidebar_content {
+        width: 220px;
+    }
+    .widget_flickrgallery>ul>li {
+        margin-right: 10px;
+    }
+    .sclub_about_wrapper {
+        padding: 100px 0 160px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .sclub_header_wrapper .sclub_menu ul>li {
+        padding: 28px 6px;
+    }
+    .latest_result_sec1_content img {
+        width: 70%;
+        margin: auto;
+    }
+    .latest_result .latest_result_sec2 p {
+        padding: 10px 0;
+    }
+    .latest_result .latest_result_sec2 h2 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sclub_header_wrapper .search_header i {
+        padding: 24px;
+    }
+    .sclub_contact_form_wrapper .contact_text {
+        width: auto;
+        position: static;
+        left: 0;
+        top: 0;
+        margin-top: 30px;
+    }
+    .sclub_player_wrapper .player_section {
+        margin: 15px 0;
+    }
+    .comment-respond .btn {
+        margin-bottom: 30px;
+    }
+    .about_bg {
+        position: static;
+        width: auto;
+        top: 0;
+        left: 0;
+        margin-top: 30px;
+    }
+    .sclub_about_wrapper .about_img img {
+        margin: auto;
+    }
+    .sclub_staff_wrapper .staff_section {
+        width: auto;
+        display: inline-block;
+        float: none;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .sclub_timer_wrapper .timer_section p:last-child {
+        font-size: 16px;
+    }
+    .timer_section .heading {
+        font-size: 24px;
+    }
+    .timer_section .paragraph:after {
+        top: 0px;
+    }
+    .latest_result .latest_result_sec1 {
+        text-align: center;
+    }
+    .upcoming_list {
+        margin-top: 40px;
+    }
+    .upcoming_matches {
+        text-align: center;
+    }
+    .upcoming_matches .counter_bg {
+        text-align: center;
+    }
+    .sclub_sports_wrapper .sport_section p.subheading {
+        top: 70%;
+    }
+    .sclub_banner_wrapper {
+        margin-bottom: 0px;
+    }
+    .sclub_traning_wrapper,
+    .sclub_sports_wrapper,
+    .sclub_gallery_wrapper,
+    .sclub_timer_wrapper,
+    .sclub_staff_wrapper,
+    .sclub_best_wrapper,
+    .sclub_player_wrapper,
+    .sclub_contact_detail_wrapper,
+    .sclub_blog_wrapper,
+    .latest_result,
+    .sclub_contact_form_wrapper,
+    .sclub_footer_wrapper {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .sclub_about_wrapper,
+    .sclub_testomonial_wrapper,
+    .sclub_activity_single_wrapper {
+        padding: 50px 0;
+    }
+    .bottompadder80,
+    .bottompadder60 {
+        padding-bottom: 30px;
+    }
+    .toppadder60 {
+        padding-top: 30px;
+    }
+    .sclub_banner_wrapper .sclub_banner_detail {
+        padding: 80px 0;
+    }
+    .navbar-toggle {
+        display: block;
+        background-color: #00bbd3;
+        margin: 20px 0 0;
+    }
+    .heading1 {
+        font-size: 40px;
+        padding: 0 20px;
+        line-height: 45px;
+    }
+    .navbar-toggle>span {
+        background-color: #ffffff;
+    }
+    .sclub_header_wrapper .sclub_menu {
+        float: left;
+        padding: 25px 0px;
+        position: fixed;
+        left: -250px;
+        height: 100%;
+        top: 0;
+        margin: 0;
+        max-width: 250px;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: all 0.35s ease-in;
+        -webkit-transition: all 0.35s ease-in;
+        -moz-transition: all 0.35s ease-in;
+        -o-transition: all 0.35s ease-in;
+        -ms-transition: all 0.35s ease-in;
+        z-index: 999;
+    }
+    .show-submenu {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 7px;
+        color: #ffffff;
+        font-size: 16px;
+        transition: all 0.35s ease-in;
+        -webkit-transition: all 0.35s ease-in;
+        -moz-transition: all 0.35s ease-in;
+        -o-transition: all 0.35s ease-in;
+        -ms-transition: all 0.35s ease-in;
+        cursor: pointer;
+    }
+    .sclub_header_wrapper .sclub_menu ul>li>ul.submenu {
+        position: relative;
+        margin-top: 15px;
+        left: auto;
+        top: auto;
+        width: 100%;
+        right: auto;
+        float: left;
+        display: none;
+        transition: all 0.35s ease-in;
+        -webkit-transition: all 0.35s ease-in;
+        -moz-transition: all 0.35s ease-in;
+        -o-transition: all 0.35s ease-in;
+        -ms-transition: all 0.35s ease-in;
+        opacity: 1;
+        min-width: auto;
+        visibility: visible;
+    }
+    .sclub_header_wrapper .sclub_menu ul>li>ul.submenu:after {
+        position: absolute;
+        content: '';
+        left: 3px;
+        width: 15px;
+        height: 15px;
+        background-color: #131212;
+        top: -7px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+    }
+    .collapse.navbar-collapse.in .sclub_menu {
+        left: 0;
+    }
+    .sclub_header_wrapper .sclub_menu>ul>li {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding: 10px 15px;
+    }
+    .center {
+        display: inline-block;
+        width: auto;
+        float: initial;
+    }
+    .textcenter {
+        text-align: center;
+    }
+    .paddingbottom {
+        padding-bottom: 20px;
+    }
+    .gallery_Section img {
+        width: 100%;
+    }
+    @keyframes circle_zoom {
+        0% {
+            transform: scale(1);
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            transform: scale(1.1);
+            opacity: 0;
+        }
+    }
+    @-webkit-keyframes circle_zoom {
+        0% {
+            -webkit-transform: scale(1);
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            -webkit-transform: scale(1.1);
+            opacity: 0;
+        }
+    }
+    @-moz-keyframes circle_zoom {
+        0% {
+            -moz-transform: scale(1);
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            -moz-transform: scale(1.1);
+            opacity: 0;
+        }
+    }
+    .blog_image img {
+        width: 100%;
+    }
+    .blog3column .blog_Section,
+    .blog4column .blog_Section {
+        height: auto;
+        overflow: visible;
+    }
+    .widget_flickrgallery>ul>li {
+        width: 10%;
+    }
+    .contact_text,
+    .contact_icon {
+        width: 100%;
+    }
+    .sclub_banner2_wrapper .heading {
+        font-size: 25px;
+    }
+    .activity_description {
+        padding-bottom: 50px;
+    }
+    .sclub_footer_wrapper .col-sm-6:nth-child(2n+1) {
+        clear: both;
+    }
+    .sclub_footer_wrapper .footer_section {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .footer_section.footer_sec3 a {
+        padding-bottom: 10px;
+    }
+    .sclub_copyright_wrapper .paragraph,
+    .sclub_copyright_wrapper .policy_term {
+        text-align: center;
+    }
+    .contact_form .form-control {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .sclub_header_wrapper .search_header i {
+        padding: 27px;
+    }
+    .blockquote:before {
+        right: 45px;
+    }
+    .blockquote:after {
+        left: 20px;
+    }
+    .blockquote {
+        padding: 30px;
+    }
+    .activity_training .activity_section {
+        width: 90% !important;
+        margin-top: -50px !important;
+        text-align: left;
+    }
+    .sclub_testomonial_wrapper .testimonial_section svg {
+        left: 20px;
+    }
+    .sclub_testomonial_wrapper .testimonial_section {
+        padding: 0 15px 30px 15px;
+    }
+    .sclub_banner2_wrapper {
+        height: 280px;
+        padding-top: 150px;
+    }
+    .sclub_traning_wrapper .traning_Section {
+        margin: 0 auto 30px;
+        float: none;
+        width: 50%;
+        display: inline-block;
+    }
+    .sclub_traning_wrapper {
+        text-align: center;
+    }
+    .team_name_result1 {
+        display: inline-block;
+    }
+    .footer_section.footer_sec3 a {
+        padding-bottom: 10px;
+        display: inline;
+    }
+    .footer_section h1,
+    .footer_section.foot_logo img {
+        padding-bottom: 15px;
+    }
+    .sclub_timer_wrapper .timer_section_video {
+        margin-top: 30px;
+    }
+    .gallery_Section {
+        width: auto;
+        float: none;
+    }
+    .counter li span {
+        font-size: 30px;
+    }
+    .latest_result .latest_result_sec2 h2 {
+        font-size: 36px;
+    }
+    .latest_result_sec2 {
+        padding: 20px;
+    }
+    .latest_result .latest_result_sec1,
+    .team_name_result2 {
+        display: flex;
+        justify-content: center;
+    }
+    .team_name_result1 h3:after,
+    .team_name_result2 h3:before {
+        position: inherit;
+    }
+    .latest_result {
+        text-align: center;
+    }
+    .heading {
+        font-size: 25px;
+    }
+    .center1 {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 350px;
+        float: initial !important;
+    }
+    .textcenter1 {
+        text-align: center;
+    }
+    .traning_Section ul {
+        border-top: none;
+    }
+    .traning_Section .left {
+        float: inherit;
+        display: inline-block;
+    }
+    .widget_flickrgallery>ul>li {
+        width: 14%;
+    }
+    .sclub_header_wrapper .sclub_logo {
+        padding: 12px;
+    }
+    .search_header .modal-dialog {
+        width: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .about_detail>ul {
+        column-count: unset;
+    }
+    .line_color {
+        width: 182%;
+    }
+    .line_color:after {
+        width: 84%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sclub_slide_content .heading1,
+    .sclub_slide_content .bnr_heading2 h1 {
+        font-size: 80px;
+    }
+    .sclub_main_slider {
+        height: 750px;
+    }
+    .counter li {
+        font-size: 13px;
+        padding: 6px;
+    }
+    .navbar-toggle {
+        margin: 17px 0 0;
+    }
+    .sclub_header_wrapper .search_header i {
+        padding: 20px 10px;
+    }
+    .contact_form .form-group {
+        width: 100%
+    }
+    .contact_form .form-group .form-control {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .sclub_header_wrapper .sclub_menu {
+        max-width: 180px;
+    }
+    .newslatter_form .form_input_app_div {
+        width: 100%;
+        margin-bottom: 20px;
+        float: left;
+    }
+    .sclub_traning_wrapper .col-xs-6 {
+        width: 85%;
+    }
+    .sclub_header_wrapper .sclub_logo {
+        float: initial;
+    }
+    .center3 {
+        display: inline-block;
+    }
+    .btn {
+        margin-left: 0;
+    }
+    .sclub_traning_wrapper .col-xs-offset-3 {
+        margin-left: 35px;
+    }
+    .center1 {
+        display: inline-block;
+        margin: 0 auto;
+        max-width: 100%;
+        float: left;
+    }
+    .heading1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .sclub_about_wrapper .about_detail span:after,
+    .sclub_about_wrapper .about_detail span:before {
+        display: none;
+    }
+    .widget_flickrgallery>ul>li {
+        width: 20%;
+    }
+    .sclub_traning_wrapper .traning_Section {
+        width: 85%;
+    }
+}
+
+@media (max-width: 390px) {
+    .sclub_header_wrapper .sclub_logo {
+        padding: 17px;
+    }
+    .sclub_traning_wrapper .traning_Section {
+        width: auto;
+    }
+    .sclub_timer_wrapper .timer_section p:last-child {
+        font-size: 13px;
+    }
+    .newslatter_form .btn {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 20px;
+    }
+    .sclub_traning_wrapper .col-xs-6 {
+        width: 100%;
+    }
+    .sclub_traning_wrapper .col-xs-offset-3 {
+        margin-left: 0px;
+    }
+    .sclub_breacrum>ol {
+        text-align: center;
+    }
+}
+
+/*******responsive css end****/
